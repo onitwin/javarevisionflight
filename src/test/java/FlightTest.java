@@ -22,6 +22,28 @@ public class FlightTest {
         assertEquals(Plane.AIRBUSA830, flight.getPlane());
     }
 
+    @Test
+    public void canGetFlightNumber(){
+        assertEquals("JS300",flight.getFlightNumber());
+    }
+
+    @Test
+    public void canGetDestination(){
+        assertEquals("Edinburgh",flight.getDestination());
+    }
+
+    @Test
+    public void canGetDepartureAirport(){
+        assertEquals("Glasgow",flight.getDepartureAirport());
+    }
+
+    @Test
+    public void canGetDepartureTime(){
+        assertEquals("13:00", flight.getDepartureTime());
+    }
+
+
+
 
 
 
