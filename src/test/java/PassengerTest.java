@@ -26,6 +26,6 @@ public class PassengerTest {
 
     @Test
     public void canGetFlightNumber(){
-        assertEquals("JP200",pass2.getFlightNumber());
+        assertEquals("200",pass2.getFlightNumber());
     }
 }
